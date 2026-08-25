@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compétences développées — Rapport de stage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="competences.css">
+</head>
+<body>
+
+  <header>
+    <p>Rapport de stage</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="sederma.html">Sederma</a></li>
+        <li><a href="neoma-sesame.html">Neoma &amp; SESAME</a></li>
+        <li><a href="competences.html" aria-current="page">Compétences</a></li>
+        <li><a href="analyse.html">Analyse</a></li>
+        <li><a href="conclusion.html">Conclusion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="intro">
+      <p>BILAN</p>
+      <h1>Mes compétences développées</h1>
+      <p>
+        Ces deux expériences, bien que très différentes, m'ont permis de
+        développer des compétences complémentaires. Mon expérience en
+        entreprise m'a apporté davantage de rigueur, d'organisation et
+        d'autonomie, tandis que ma participation au concours SESAME m'a
+        surtout permis de renforcer mon aisance relationnelle, ma
+        communication et mon esprit d'équipe. Ensemble, elles m'ont permis
+        de gagner en confiance et de mieux comprendre les compétences
+        nécessaires dans un environnement professionnel.
+      </p>
+    </section>
+
+    <section id="experiences">
+      <article id="exp-sederma" class="reveal">
+        <h2>Chez Sederma</h2>
+        <p>
+          Mon expérience chez Sederma m'a permis de développer de nombreuses
+          compétences, aussi bien techniques que professionnelles. J'ai
+          renforcé ma maîtrise de Blender grâce à la création de rendus 3D,
+          et découvert Sitecore, l'UX et les principes du SEO à travers la
+          création, l'organisation et le référencement de contenus web.
+        </p>
+        <p>
+          Ce stage m'a également permis de développer ma rigueur, mon
+          autonomie, mon sens de l'organisation et mon esprit d'analyse,
+          notamment lors du travail sur le référencement des produits, des
+          documents marketing et des informations INCI. J'ai appris à
+          travailler en équipe et avec des collaborateurs étrangers, à
+          communiquer dans un cadre professionnel et à prendre en compte
+          les retours sur mon travail. Enfin, les différentes activités SHE
+          m'ont permis de mieux comprendre les enjeux liés à la santé, à la
+          sécurité, à l'environnement et à la qualité de vie au travail.
+        </p>
+      </article>
+      <article id="exp-sesame" class="reveal">
+        <h2>Au concours SESAME</h2>
+        <p>
+          Mon expérience lors du concours SESAME à NEOMA Business School
+          m'a permis de développer principalement mes compétences
+          relationnelles et organisationnelles. Le contact avec les
+          candidats m'a aidée à améliorer mon aisance à l'oral, ma
+          communication, mon écoute et ma capacité à m'adapter aux
+          différentes situations.
+        </p>
+        <p>
+          La diversité de mes missions, entre le back-office, l'accueil,
+          l'accompagnement des candidats, les oraux à distance et
+          l'animation, m'a également appris à être plus autonome, réactive
+          et organisée. Le travail en équipe m'a permis de renforcer mon
+          esprit de collaboration et mon sens des responsabilités. Enfin, ma
+          participation aux concerts en tant que bassiste m'a permis de
+          développer ma confiance en moi, ma gestion du stress et ma
+          capacité à m'exprimer devant un public, tout en mettant ma
+          passion pour la musique au service de l'événement.
+        </p>
+      </article>
+    </section>
+
+    <section id="niveaux">
+      <h2>Compétences développées</h2>
+      <div class="skills-columns">
+        <div class="reveal">
+          <h3>Chez Sederma</h3>
+          <ul class="skills">
+            <li><label for="s1">Créativité &amp; design</label><progress id="s1" value="8" max="10"></progress></li>
+            <li><label for="s2">Autonomie</label><progress id="s2" value="9" max="10"></progress></li>
+            <li><label for="s3">Gestion de projet</label><progress id="s3" value="8" max="10"></progress></li>
+            <li><label for="s4">Outils numériques</label><progress id="s4" value="9" max="10"></progress></li>
+            <li><label for="s5">Travail en équipe</label><progress id="s5" value="9" max="10"></progress></li>
+            <li><label for="s6">Communication</label><progress id="s6" value="8" max="10"></progress></li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h3>Au concours SESAME</h3>
+          <ul class="skills skills-purple">
+            <li><label for="s7">Aisance relationnelle</label><progress id="s7" value="9" max="10"></progress></li>
+            <li><label for="s8">Gestion du stress</label><progress id="s8" value="8" max="10"></progress></li>
+            <li><label for="s9">Organisation</label><progress id="s9" value="8" max="10"></progress></li>
+            <li><label for="s10">Travail en équipe</label><progress id="s10" value="9" max="10"></progress></li>
+            <li><label for="s11">Réactivité</label><progress id="s11" value="8" max="10"></progress></li>
+            <li><label for="s12">Communication</label><progress id="s12" value="9" max="10"></progress></li>
+          </ul>
+        </div>
+      </div>
+      <p class="tip">Astuce : ces niveaux sont une base de départ — ajuste les valeurs <code>value="..."</code> (sur 10) selon ton propre ressenti.</p>
+    </section>
+
+  </main>
+
+  <button aria-label="Retourner en haut de la page" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <footer>
+    <section>
+      <p>Rapport de stage</p>
+      <p>Sederma &amp; NEOMA SESAME — Année 2025/2026</p>
+    </section>
+    <nav>
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="sederma.html">Sederma</a></li>
+        <li><a href="neoma-sesame.html">Neoma &amp; SESAME</a></li>
+        <li><a href="competences.html">Compétences</a></li>
+        <li><a href="analyse.html">Analyse</a></li>
+        <li><a href="conclusion.html">Conclusion</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2026 — Tous droits réservés</p>
+  </footer>
+
+  <script src="reveal.js" defer></script>
+</body>
+</html>
